@@ -1,0 +1,11 @@
+{
+  "name": "koine-epitome-historiae-sacrae",
+  "version": "1.0.0",
+  "description": "A Koine Greek version of Lhomond's \"Epitome Historiae Sacrae\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Rogers",
+  "license": "ISC"
+}
