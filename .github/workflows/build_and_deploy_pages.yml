@@ -1,3 +1,4 @@
+# Builds stitched Markdown, compiles to HTML, and deploys GitHub Pages
 name: Build and Deploy Pages
 
 on:
