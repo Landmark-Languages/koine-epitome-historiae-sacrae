@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: lts/*
           cache: 'npm'
-      - run: node scripts/md-to-html.js -i dist/epitome-tes-palaias-diathekes.md -o dist/index.html
+      - run: node scripts/md-to-html.mjs -i dist/epitome-tes-palaias-diathekes.md -o dist/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
