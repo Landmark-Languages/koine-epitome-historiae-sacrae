@@ -1,0 +1,17 @@
+name: Build Full Output
+
+on: workflow_dispatch
+
+jobs:
+    stitch-markdown:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: abhinav/stitchmd-action@v1
+              with:
+                mode: write
+                offset: 1
+                preface: src/preface.md
+                summary: src/toc.md
+                output: dist/epitome-tes-palaias-diathekes.md
+            - run: cat dist/epitome-tes-palaias-diathekes.md # TODO: actually publish somewhere
